@@ -1,0 +1,109 @@
+.flex-row-center-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-row-around-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+
+.p-t-40 {
+  padding-top: 40px;
+}
+
+.icon-duihao {
+  font-size: 14px;
+  color: #63ed7a;
+}
+
+.icon-compare {
+  font-size: 14px;
+  color: #f7bc38;
+}
+
+.c-duihao {
+  color: #504CE5;
+}
+
+.c-cuohao {
+  font-size: 14px;
+  color: #ff8a00;
+}
+
+.pricing-item .pricing-body .list {
+  padding: 0 20px;
+}
+
+.pricing-item .pricing-body .list li {
+  text-align: left;
+}
+
+.pricing-item .pricing-body .list .title {
+  font-weight: 700;
+}
+
+.pricing-item .pricing-body .list .content {
+  text-indent: 4em;
+}
+
+.pricing-item .pricing-body .list li.diff {
+  color: #504CE5;
+}
+
+.pricing-item .pricing-body .list li.diff .diff-num {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff8a00;
+}
+
+.feature-item-one .title .icon {
+  background-color: #fff;
+}
+
+.feature-item-one .title .img-box {
+  width: 40px;
+  height: 40px;
+}
+
+.feature-item-one .title .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.home-about-image .img-1 {
+  padding-top: 36px;
+}
+
+.home-about-image .img-1 img {
+  width: 100%;
+}
+
+#about-project .img-2 img {
+  width: 100%;
+}
+
+#about-project .img-4 img {
+  width: 208px;
+  height: 172px;
+  object-fit: cover;
+}
+
+.pricing-footer .recommend {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #888;
+}
