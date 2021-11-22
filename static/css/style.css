@@ -479,9 +479,9 @@ welcome
   -moz-border-radius: 10px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1); */
   display: flex;
-  background-color: #fff;
+  /* background-color: #fff; */
   align-items: center;
   justify-content: center;
   -webkit-transition: all 0.3s ease 0s;
