@@ -459,8 +459,8 @@ welcome
 }
 
 .welcome-area-one .content .text h1 {
-  font-weight: 400;
-  font-size: 38px;
+  font-weight: 600;
+  font-size: 48px;
   letter-spacing: 1.27px;
   color: #fff;
   margin-bottom: 20px;
@@ -481,8 +481,17 @@ welcome
   overflow: hidden;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
   display: flex;
+  background-color: #fff;
   align-items: center;
   justify-content: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.welcome-area-one .content .player img {
+  transform: scale(.8);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -514,6 +523,10 @@ welcome
 .welcome-area-one .content .player:hover {
   margin-top: -15px;
   margin-bottom: 15px;
+}
+
+.welcome-area-one .content .player:hover img {
+  transform: scale(.9);
 }
 
 .welcome-area-two {
@@ -785,11 +798,20 @@ header
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 100px;
+  /* height: 100px; */
+  background-color: #504ce5;
+  box-shadow: 0 2px 4px 1px rgb(80 76 229 / 38%);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.header-area .main-nav {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-area.light-header .main-nav .light-logo {
@@ -806,7 +828,7 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 31px;
+  /* margin-top: 31px; */
   width: 102px;
   height: 33px;
   -webkit-transition: all 0.3s ease 0s;
@@ -827,7 +849,7 @@ header
 
 .header-area .main-nav .nav {
   float: left;
-  margin-top: 27px;
+  /* margin-top: 27px; */
   margin-left: 80px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -860,7 +882,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #D6D5FF;
+  color: #fff;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -1064,7 +1086,7 @@ header
   color: #fff;
   position: relative;
   overflow: hidden;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   font-weight: 700;
   font-size: 12px;
   -webkit-transition: all 0.3s ease 0s;
@@ -1103,7 +1125,7 @@ header
   position: relative;
   overflow: hidden;
   margin-left: 15px;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   font-weight: 700;
   font-size: 12px;
   -webkit-transition: all 0.3s ease 0s;
@@ -1388,6 +1410,7 @@ features
 }
 
 .feature-item-one .text {
+  min-height: 175px;
   padding: 30px;
   padding-top: 0px;
 }

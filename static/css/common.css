@@ -1,3 +1,12 @@
+@keyframes rotate{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
 .flex-row-center-start {
   display: flex;
   flex-direction: row;
@@ -10,6 +19,20 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.flex-row-around-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .m-t-10 {
@@ -64,7 +87,6 @@
 }
 
 .pricing-item .pricing-body .list li.diff .diff-num {
-  font-size: 16px;
   font-weight: 700;
   color: #ff8a00;
 }
@@ -85,7 +107,7 @@
 }
 
 .home-about-image .img-1 {
-  padding-top: 36px;
+  padding-top: 67px;
 }
 
 .home-about-image .img-1 img {
@@ -106,4 +128,16 @@
   display: inline-block;
   margin-bottom: 40px;
   color: #888;
+}
+
+/* 文字两边对齐 */
+.text-justify {
+  text-align: justify !important;
+  text-justify: inter-ideograph !important;
+}
+
+.safe-exam-img {
+  transition: 0.5s;
+  /* transform-origin: 30px 30px; */
+  animation: rotate 3s linear infinite;
 }
